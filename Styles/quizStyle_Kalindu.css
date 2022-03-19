@@ -1,0 +1,79 @@
+
+/* All work done by Kalindu */
+
+.subQues {
+	width: 65%; 
+	height: 50%; 
+	float: left; 
+	padding: 10px;
+}
+.subQues1 {
+	width: 35%; 
+	height: 50%; 
+	float: left; 
+	padding: 10px;
+	padding-left: 10px;	
+}
+.currentQuestionDiv {
+	display: flex;
+	background: radial-gradient(#0066ff, #00ccff);
+	width: 1315px; 
+	height: 493px; 
+}
+.currentQuestionCoverDiv {
+	display: flex;
+	margin: auto;
+	margin-bottom: 15px;
+	margin-top:  15px;
+	width: 1315px; 
+	height: 493px; 
+}
+.currentQuestionDiv:hover {
+	transform: scale(1.1);
+	background: radial-gradient(#0000ff, #0066ff);
+	color: white;
+}
+.submitSection {
+	display: flex;
+	margin: auto;
+	background: radial-gradient(#0066ff, #00ccff);
+	margin-top: 30px;
+	width: 1315px; 
+	height: 100px; 
+}
+
+.submitSubSection1 {
+	display: flex;
+	width: 800px; 
+	padding: 10px;
+}
+.submitSubSection2 {
+	display: flex;
+	width: 300px; 
+}
+.submitSubSection3 {
+	display: flex;
+	width: 250px; 
+}
+.quesText {
+	font-size: 40px;
+}
+.answerHighlightCorrect {
+	color: green;
+}
+.answerHighlightIncorrect {
+	color: red;
+}
+.submitButton {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px
+}

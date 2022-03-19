@@ -1,0 +1,81 @@
+
+/* All work done by Kalindu */
+
+.currentStudentDiv {
+	animation-name: detailCollapse;
+	animation-duration: 1s;
+	display: flex;
+	background: radial-gradient(#0066ff, #00ccff);
+	width: 493px; 
+	height: 493px;
+}
+.imgDiv {
+	width: 473px; 
+	height: 473px;
+	margin: 10px;;
+}
+@keyframes detailExpand {
+  from {width: 493px; }
+  to {width: 1315px; }
+}
+@keyframes detailCollapse {
+  from {width: 1315px; }
+  to {width: 493px; }
+}
+.currentStudentDiv:hover {
+	animation-name: detailExpand;
+	animation-duration: 1s;
+	width: 1315px;
+}
+
+.mainRowOfTwo {
+	display: flex;
+	float: left;
+	margin: auto;
+	margin-bottom: 15px;
+	margin-top:  15px;
+/* 	width: 1315px; */
+	height: 493px;
+}
+.floatLeft {
+	float: left;
+}
+.mainCoverDividerDiv {
+	width: 50%;
+}
+.marginLeft {
+	margin-left: 200px;
+}
+.marginLeft2 {
+	margin-left: 400px;
+}
+.marginRight {
+	margin-right: 500px;
+}
+.mainDiv {
+	width: 1815px;
+	height: 2100px;
+	/* background: red; */
+}
+.subMainDiv {
+	width: 400px;
+}
+.movingLogoDiv {
+	margin-left: 1000px;
+	height: 2100px;
+}
+.movingLogoDiv2 {
+	height: 574px;
+	width: 574px;
+	position: sticky;
+	top: 200px;
+	bottom: 100px;
+}
+.movingImg {
+	opacity: 1;
+}
+.paraText {
+	margin-left: 30px;
+	font-size: 40px;
+	color: white;
+}
